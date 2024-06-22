@@ -1,0 +1,45 @@
+{
+  "name": "ionic-react-dark-mode",
+  "version": "0.0.2",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saneel-shr/ionic-react-dark-mode.git"
+  },
+  "keywords": [
+    "ionic",
+    "react",
+    "dark mode",
+    "capacitor",
+    "preferences",
+    "theme",
+    "context",
+    "typescript",
+    "hook",
+    "light mode",
+    "UI",
+    "user preferences"
+  ],
+  "author": "Anil Shrestha",
+  "license": "MIT",
+  "description": "A React Hook and Context implementation for managing dark mode in Ionic React applications using Capacitor Preferences.",
+  "dependencies": {
+    "@capacitor/preferences": "^6.0.1",
+    "@ionic/react": "^8.2.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.5.2"
+  }
+}
